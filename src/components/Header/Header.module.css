@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.left {
+    display: flex;
+    grid-gap: 40px;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+i {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 6px;
+    border-radius: 3px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.star {
+    width: 16px;
+    margin-left: 2px;
+}
+
+.num {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.txt {
+    color: rgb(153, 153, 153);
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 4px;
+}

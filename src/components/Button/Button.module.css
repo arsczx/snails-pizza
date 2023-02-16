@@ -1,0 +1,29 @@
+.full {
+    background: rgb(255, 105, 0);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    height: 40px;
+}
+
+.full:hover {
+    transition-timing-function: ease-out;
+    transition-duration: 200ms;
+    background-color: rgb(209, 87, 0);    
+}
+
+.empty {
+    background: rgb(255, 240, 230);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(209, 87, 0);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    height: 40px;
+}
