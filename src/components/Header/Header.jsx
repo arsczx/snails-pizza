@@ -28,7 +28,7 @@ function Header() {
       </div>
       <Button variant="full" title="Корзина" />
       </div>
-      <NavBar/>
+      {/* <NavBar/> */}
     </div>
   )
 }

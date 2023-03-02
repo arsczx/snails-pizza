@@ -1,0 +1,82 @@
+.create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 20px;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.inputBox {
+    position: relative;
+    width: 250px;
+}
+
+.inputBox > input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid  rgb(153, 153, 153);
+}
+
+.inputBox > span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    font-size: 1em;
+    transition: 0.5s;
+}
+
+.inputBox > input:valid ~ span,
+.inputBox > input:focus ~ span {
+    color: #ff6900;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background: white;
+}
+
+textarea {
+    border: 1px solid  rgb(153, 153, 153);
+    border-radius: 8px;
+    resize: none;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    color: #ff6900;
+}
+
+.inputBox > textarea:valid ~ span,
+.inputBox > textarea:focus ~ span {
+    color: #ff6900;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background: white;
+}
+
+.inputBox > textarea:hover {
+    border: 1px solid #ff6900;
+    transition-timing-function: ease-out;
+    transition-duration: 200ms;
+}
+
+.slct {
+    width: 250px;
+    height: 30px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 8px;
+    outline: none;
+}
+
+.slct:hover {
+    border: 1px solid #ff6900;
+    transition-timing-function: ease-out;
+    transition-duration: 200ms;
+}
+
+.create > button {
+    width: 250px;
+}

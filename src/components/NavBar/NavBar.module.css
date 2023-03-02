@@ -16,11 +16,10 @@ a:hover {
     color: rgb(255, 105, 0);
 }
 
-nav {
-    position: sticky;
-    width: 100px;
-}
-
 .wrapper {
     padding: 22px 0;
+    /* position: sticky;
+    top: 0;
+    background: #fff;
+    box-shadow: 0 0 3px 0;  */
 }

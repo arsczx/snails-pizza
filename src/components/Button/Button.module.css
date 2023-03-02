@@ -16,8 +16,13 @@
     background-color: rgb(209, 87, 0);    
 }
 
+.full:disabled, .empty:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
 .empty {
-    background: rgb(255, 240, 230);
+    background-color: rgb(255, 240, 230);
     padding: 10px 30px;
     border: none;
     border-radius: 15px;
@@ -26,4 +31,10 @@
     font-weight: 500;
     cursor: pointer;
     height: 40px;
+}
+
+.empty:hover {
+    background-color: rgb(255, 240, 230);
+    transition-timing-function: ease-out;
+    transition-duration: 200ms;
 }
